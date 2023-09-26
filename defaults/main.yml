@@ -1,2 +1,1 @@
----
-# defaults file for ansible-role-zsh-additions
+zsh_user: "{{ ansible_user_id }}"

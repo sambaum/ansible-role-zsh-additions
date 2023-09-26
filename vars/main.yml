@@ -1,2 +1,2 @@
----
-# vars file for ansible-role-zsh-additions
+p10k_config: "~{{ zsh_user }}/.p10k.zsh"
+zsh_user_group: "{{ zsh_user }}"

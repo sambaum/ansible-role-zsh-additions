@@ -1,2 +1,6 @@
----
-# tasks file for ansible-role-zsh-additions
+- name: Write .p10k.zsh config
+  ansible.builtin.copy:
+    src: p10k.zsh
+    dest: "{{ p10k_config }}"
+    owner: "{{ zsh_user }}"
+    group: "{{ zsh_user_group }}"
